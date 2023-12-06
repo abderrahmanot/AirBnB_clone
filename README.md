@@ -38,6 +38,7 @@ $
 
 But also in non-interactive mode: (like the Shell project in C)
 
+```bash
 $ echo "help" | ./console.py
 (hbnb)
 
