@@ -85,6 +85,34 @@ and
 ```python
 python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 ```
+## 0x05 Usage
+
+* Start the console in interactive mode:
+
+```bash
+$ ./console.py
+(hbnb)
+```
+
+* Use help to see the available commands:
+
+```bash
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  all  count  create  destroy  help  quit  show  update
+
+(hbnb)
+```
+
+* Quit the console:
+
+```bash
+(hbnb) quit
+$
+```
+
 ## Authors:
 
 * Moundir Iharchafane <mondiriharchafane@gmail.com>
